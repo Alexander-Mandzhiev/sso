@@ -1,0 +1,14 @@
+env: "development"
+token_ttl: "1h"
+secret_key: "test-secret"
+grpc:
+ address: "localhost:4000"
+ timeout: 4s
+ idle_timeout: 60s
+database:
+  port: "5432"
+  host: "localhost"
+  name: "postgres"
+  user: "postgres"
+  password: "root"
+  db_name: "sso"
